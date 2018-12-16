@@ -1,0 +1,18 @@
+<div id="calculator">
+  <h1 style="text-align: center">Calculator</h1>
+  <div id="calculator-container">
+      <div id="display">
+        <p class="input">
+          {{exp}} <br/>
+          {{result}} <br/>
+          {{error}}
+        </p>
+      </div>
+      <div id="buttons">
+        <button id="clear-all" class="btn" type="button" ng-click="clearAll()">AC</button>
+        <button id="delete" class="btn" type="button" ng-click="delete()">CE</button>
+        <button id="numbers" class="btn" ng-repeat="number in numbers" ng-click="addExp(number)">{{number}}</button>
+        <button id="evaluate" class="btn" ng-click="evaluate()">=</button>
+      </div>
+  </div>
+</div>

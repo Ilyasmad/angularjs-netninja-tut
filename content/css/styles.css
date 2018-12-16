@@ -1,0 +1,306 @@
+.orange {
+  color: orange;
+}
+
+.red {
+  color: red;
+}
+
+body{
+  font-family: Helvetica;
+  margin: 0;
+}
+
+h1,h2,h3{
+  margin: 0;
+}
+
+.belt{
+  padding: 5px 10px;
+  border-radius: 10px;
+  margin-left: 5px;
+  color: #fff;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+
+#menu-bar{
+  background: crimson;
+  color: #fff;
+  padding: 10px;
+}
+
+#menu-bar h1{
+  font-size: 24px;
+  font-weight: normal;
+  display: inline-block;
+}
+
+#menu-bar ul{
+  float: right;
+  list-style-type: none;
+  padding: 0;
+  margin: 6px 0;
+}
+
+#menu-bar li{
+  float: right;
+  margin-left: 20px;
+}
+
+#menu-bar a{
+  color: #fff
+}
+
+/* Dropdown Menu */
+#menu-bar .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+#menu-bar .dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+#menu-bar .dropdown-content a:hover {background-color: #ddd;}
+
+#menu-bar .dropdown:hover .dropdown-content {display: block;}
+
+main{
+  background: #eee;
+  width: 80%;
+  margin: 30px auto;
+  border-radius: 10px;
+}
+
+.content{
+  padding: 20px;
+}
+
+.content button,
+.content input[type="submit"]{
+  background: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: #777;
+  border: 0;
+  box-shadow: 2px 2px 2px rgba(20,20,20,0.1);
+  font-size: 16px;
+}
+
+.content button:nth-child(2){
+  float: right;
+}
+
+.content ul{
+  padding: 0;
+  list-style-type: none;
+  margin: 30px 0;
+}
+
+.content li{
+  padding: 15px 0;
+  border-top: 1px solid #e2e2e2;
+  color: #444;
+}
+
+.content li span{
+  float: right;
+}
+
+.content li h3{
+  display: inline-block;
+  font-weight: normal;
+  font-size: 22px;
+}
+
+.content input{
+  width: 90%;
+  padding: 10px 5%;
+  border-radius: 10px;
+  border: 2px solid #ddd;
+  margin: 10px 0;
+}
+
+.content input[type="submit"]:last-child{
+  width: 150px;
+  display: block;
+  margin: 15px auto;
+}
+
+.remove{
+  float: right;
+  padding: 5px;
+  background: #fff;
+  width: 18px;
+  text-align: center;
+  border-radius: 20px;
+  color: crimson;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.content textarea{
+  width: 90%;
+  padding: 10px 5%;
+  border-radius: 10px;
+  border: 2px solid #ddd;
+  margin: 10px 0;
+}﻿
+
+textarea.ng-invalid.ng-touched {
+  border: 2px solid red;
+}
+
+input.ng-invalid.ng-touched {
+  border: 2px solid red;
+}
+
+input[disabled="disabled"] {
+  opacity: 0.4;
+  cursor: not-allowed !important;
+}
+
+/* CALCULATOR */
+#calculator {
+  background-color: white;
+}
+
+#calculator h1 {
+  margin-bottom: 20px;
+}
+
+#calculator-container {
+  border:0px;
+  fnt-size:150%;
+  margin:0 auto;
+  width:375px;
+  background-color: #ccffff;
+  border-radius:15px;
+  padding:10px;
+  box-shadow:0px 4px #009de4, 0px 10px 15px rgba(0, 0, 0, 0.2);
+}
+
+#calculator-container #display {
+  display:inline-box;
+  height:50px;
+  text-align:center;
+  font-size:25px;
+  color:white;
+  margin-bottom: 15px;
+}
+
+#calculator-container #buttons {
+  display:inline-box;
+  text-align:center;
+  font-size:25px;
+  padding: 4px;
+}
+
+#calculator-container .input {
+	height: 50px;
+	width: 320px;
+  padding:4px;
+  margin: 0 auto;
+	background: rgba(0, 0, 0, 0.2);
+	border-radius: 3px;
+	box-shadow: inset 0px 4px rgba(0, 0, 0, 0.2);
+
+	/* Typography */
+	font-size: 17px;
+	color: white;
+	text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+	text-align: right;
+	letter-spacing: 1px;
+}
+
+#calculator-container .btn{
+  width:70px;
+  padding:10px;
+  margin:5px;
+  background-color:DeepSkyBlue;
+  box-shadow: 0 4px 4px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+/* TICTACTOE */
+#tictactoe {
+  text-align: center;
+  background-color: white;
+}
+
+#tictactoe h1 {
+  margin-bottom: 10px;
+}
+
+.box {
+  width: 80px;
+  height: 80px;
+  border: 1px solid black;
+  display: inline-block;
+  line-height: 80px;
+}
+
+#ttt-board {
+  display: inline-flex;
+  flex-wrap: wrap;
+  width: 320px;
+  margin-top: 20px;
+  margin-left: 65px;
+  margin-bottom: 20px;
+}
+
+#tictactoe button {
+  display: block;
+  margin: auto;
+}
+
+#winner {
+  margin-top: 10px;
+}
+
+/* ANIMATIONS */
+/* The starting CSS styles for the enter animation */
+main.ng-enter {
+  transition:0.5s linear all;
+  opacity:0;
+}
+
+/* The finishing CSS styles for the enter animation */
+main.ng-enter.ng-enter-active {
+  opacity:1;
+}
+
+#ninja-list li.ng-enter {
+  transition: 0.2s linear all;
+  opacity:0;
+  transform: translateY(30px);
+}
+
+#ninja-list li.ng-leave.ng-leave-active {
+  opacity:1;
+  transform: translateY(0);
+}
+
+#ninja-list li.ng-leave {
+  transition: 0.2s linear all;
+  opacity:1;
+  transform: translateX(0);
+}
+
+#ninja-list li.ng-leave.ng-leave-active {
+  opacity:0;
+  transform: translateX(-100%);
+}
+
+#ninja-list li.ng-leave-stagger {
+  transition-delay: 0.2s;
+  transition-duration: 0;
+}

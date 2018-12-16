@@ -1,0 +1,10 @@
+<div id="tictactoe">
+  <h1 style="text-align: center">Tic Tac Toe</h1>
+  <div ng-show="!winner && !draw">Player {{player}} turn </div>
+  <div id="ttt-board">
+    <div class="box" ng-repeat="box in board track by $index" ng-click="handleClick($index)">{{box}}</div>
+  </div>
+  <button ng-click="reset()"> Reset </button>
+  <h2 id="winner" ng-show="winner"> Player {{winner}} is the winner!</h2>
+  <h2 id="winner" ng-show="draw"> It is a draw!</h2>
+</div>
